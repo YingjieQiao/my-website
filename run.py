@@ -1,4 +1,4 @@
-from flaskblog import create_app
+from me_main import create_app
 
 app = create_app()
 

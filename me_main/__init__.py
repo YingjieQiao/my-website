@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy # import SQL database extension
 from flask_bcrypt import Bcrypt
 from flask_login import LoginManager
 from flask_mail import Mail
-from flaskblog.config import Config
+from me_main.config import Config
 
 
 db = SQLAlchemy()                    # create the database (as class called "Model")
@@ -24,17 +24,13 @@ def create_app(config_class=Config):
     login_manager.init_app(app)
     mail.init_app(app)
 
-    from flaskblog.users.routes import users
-    from flaskblog.posts.routes import posts
-    from flaskblog.main.routes import main
+    from me_main.users.routes import users
+    from me_main.posts.routes import posts
+    from me_main.main.routes import main
 
     app.register_blueprint(users)
     app.register_blueprint(posts)
     app.register_blueprint(main)
 
-    with app.app_context():
-        # Extensions like Flask-SQLAlchemy now know what the "current" app
-        # is while within this block. Therefore, you can now run........
-        db.create_all()
 
     return app
