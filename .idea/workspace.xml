@@ -2,50 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e36b2e1-3f1d-4bbd-881a-e8ed01e91b6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/me_main/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/me_main/static/profile_pics/23b053e4cad7a1cf.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/me_main/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/me.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/me.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/main/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/main/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/main/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/main/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/posts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/posts/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/posts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/posts/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/posts/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/posts/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/site.db" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/site.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/static/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/static/profile_pics/2633c06f6bb51952.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/static/profile_pics/2633c06f6bb51952.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/static/profile_pics/2e32b4c96a8d8f10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/static/profile_pics/2e32b4c96a8d8f10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/static/profile_pics/6248bbdcf193157d.png" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/static/profile_pics/6248bbdcf193157d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/static/profile_pics/7798432669b8b3ac.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/static/profile_pics/7798432669b8b3ac.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/static/profile_pics/81e2a9a1c9f772ed.png" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/static/profile_pics/81e2a9a1c9f772ed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/static/profile_pics/85ed1b444539873d.png" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/static/profile_pics/85ed1b444539873d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/static/profile_pics/b26b2b21cfb25d55.png" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/static/profile_pics/b26b2b21cfb25d55.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/static/profile_pics/b6e1c53325f88b74.png" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/static/profile_pics/b6e1c53325f88b74.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/static/profile_pics/default.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/static/profile_pics/default.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/templates/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/templates/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/templates/account.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/templates/create_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/templates/create_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/templates/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/templates/reset_request.html" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/templates/reset_request.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/templates/reset_token.html" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/templates/reset_token.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/templates/user_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/templates/user_posts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/users/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/users/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/users/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/users/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/users/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/me_main/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
