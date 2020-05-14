@@ -1,6 +1,6 @@
 # Hello there!
 
-~www.yingjieqiao.me~ I don't know why namespace.com banned my domain, by please access my website using **139.162.46.158** for now.
+~www.yingjieqiao.me~ I don't know why namespace.com banned my domain, but please access my website using **139.162.46.158** for now.
 
 Weird enough, *the above link doesn't work if you are using **"SUTD_WiFi"*** for unknown reasons. 
 But you can use type **139.162.46.158** into your web browser to go to my website instead.
