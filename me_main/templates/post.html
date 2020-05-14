@@ -17,6 +17,44 @@
                 <p class="article-content">{{ post.content }}</p>
             </div>
         </article>
+        {% if comments %}
+            {% for comment in comments %}
+            <article class="media content-section">
+                <div class="media-body">
+                    <div class="article-metadata">
+                        <a class="mr-2" href="{{ url_for("users.user_posts", username=post.author.username) }}">{{ post.author.username }}</a>
+                        <small class="text-muted">{{ comment.date_posted.strftime('%Y-%m-%d') }}</small>
+                        <p class="article-content">{{ comment.content }}</p>
+                    </div>
+                </div>
+            </article>
+            {% endfor %}
+        {% endif %}
+        <div class="content-section">
+        <form method="POST" action="">
+            {{ form.hidden_tag() }}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Leave a comment</legend>
+
+                <div class="form-group">
+                    {{ form.content.label(class="form-control-label") }}
+                    {% if form.content.errors %}
+                        {{ form.content(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.content.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.content(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+            </fieldset>
+            <div class="form-group">
+                {{ form.submit(class="btn btn-outline-info") }}
+            </div>
+        </form>
+    </div>
         <!-- Modal -->
           <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">

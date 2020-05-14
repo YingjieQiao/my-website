@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="3e36b2e1-3f1d-4bbd-881a-e8ed01e91b6d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/me_main/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/me_main/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/me_main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/me_main/posts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/posts/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/me_main/posts/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/posts/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/me_main/site.db" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/site.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/me_main/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/me_main/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/templates/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/me_main/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/me_main/templates/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
